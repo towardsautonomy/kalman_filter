@@ -4,14 +4,19 @@ The Kalman Filter has long been regarded as the optimal solution to many trackin
 
 ## Results
 
+---
 | Error in x position and velocity  |  Error in y position and velocity |
 |:---------------------------------:|:---------------------------------:|
-|![](results/x_err.png)             | ![](results/y_err.png)            |
+|![](results/x_err.png)             | ![](results/y_err.png)            |  
+
 *Figure 1: X and Y position error plots*
+
+---
 
 ![](results/states.png)  
 *Figure 2: Plot of 2D position and velocity*
 
+---
 Kalman Filter is implemented in the ```KalmanFilter.py``` python script. This file implements two classes: **KalmanFilter1D** for 1-Dimensional Kalman filter and **KalmanFilter2D** for two dimensional Kalman Filter. Run the file ```test_kf.py``` to test the Kalman Filters. 
 
 For testing purposes, random noise is added to the data. However, in reality the noise is gaussian in nature.
